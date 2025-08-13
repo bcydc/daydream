@@ -1,5 +1,34 @@
 <script lang="ts">
-	export let tickerText: string;
+	// Cities where the game jam is happening
+	const cities = `Columbus
+Lisbon 
+Boston
+Giza
+Vancouver
+Houston
+New York City
+Bengaluru
+Tampa
+Auckland
+Omaha
+Phoenix
+Madrid
+Boise
+Ottawa
+Hangzhou
+Islamabad
+London
+Visakhapatnam
+Dubai
+San Francisco
+Minneapolis
+Seattle
+Signapore
+Sydney
+Mumbai`.split('\n');
+
+	// Generate ticker text from cities array
+	const tickerText = cities.join(' • ');
 </script>
 
 <!-- Animated text ticker along curvy line -->
