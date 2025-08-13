@@ -2,11 +2,11 @@
 	import { onMount } from 'svelte';
 	import { gsap } from 'gsap';
 	import { ScrollTrigger } from 'gsap/ScrollTrigger';
-	import LandingHeader from '$lib/components/LandingHeader.svelte';
-	import LandingLogo from '$lib/components/LandingLogo.svelte';
-	import ParticipantSignUp from '$lib/components/ParticipantSignUp.svelte';
-	import LandingClouds from '$lib/components/LandingClouds.svelte';
-	import StickerButton from '$lib/components/StickerButton.svelte';
+	import LandingHeader from '$lib/components/landing/LandingHeader.svelte';
+	import LandingLogo from '$lib/components/landing/LandingLogo.svelte';
+	import ParticipantSignUp from '$lib/components/landing/ParticipantSignUp.svelte';
+	import LandingClouds from '$lib/components/landing/LandingClouds.svelte';
+	import StickerButton from '$lib/components/landing/StickerButton.svelte';
 
 	export let eventLocation = '';
 

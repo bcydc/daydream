@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FaqItem from './FaqItem.svelte';
+	import FaqItem from '$lib/components/content/FaqItem.svelte';
 
 	export let bgGradient: string = 'bg-gradient-to-b from-[#FAE3C9] to-[#e99cce]';
 	export let padding: string = 'pb-24 max-md:pt-16';

@@ -2,7 +2,7 @@
 	import { onMount } from 'svelte';
 	import { gsap } from 'gsap';
 	import { ScrollTrigger } from 'gsap/ScrollTrigger';
-	import Ticker from '$lib/components/Ticker.svelte';
+	import Ticker from '$lib/components/landing/Ticker.svelte';
 
 
 

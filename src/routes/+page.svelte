@@ -1,16 +1,16 @@
 <script lang="ts">
-	import Footer from '$lib/components/Footer.svelte';
-	import FaqList from '$lib/components/FaqList.svelte';
-	import LandingLetter from '$lib/components/LandingLetter.svelte';
-	import Pathway from '$lib/components/Pathway.svelte';
-	import Schedule from '$lib/components/Schedule.svelte';
-	import Styles from '$lib/components/Styles.svelte';
-	import Sponsors from '$lib/components/Sponsors.svelte';
-	import Macintosh from '$lib/components/Macintosh.svelte';
-	import MapContainer from '$lib/components/MapContainer.svelte';
-	import VideoPopup from '$lib/components/VideoPopup.svelte';
-	import Landing from '$lib/components/Landing.svelte';
-	import SvelteHead from '$lib/components/SvelteHead.svelte';
+	import Footer from '$lib/components/layout/Footer.svelte';
+	import FaqList from '$lib/components/content/FaqList.svelte';
+	import LandingLetter from '$lib/components/landing/LandingLetter.svelte';
+	import Pathway from '$lib/components/content/Pathway.svelte';
+	import Schedule from '$lib/components/content/Schedule.svelte';
+	import Styles from '$lib/components/layout/Styles.svelte';
+	import Sponsors from '$lib/components/content/Sponsors.svelte';
+	import Macintosh from '$lib/components/content/Macintosh.svelte';
+	import MapContainer from '$lib/components/content/MapContainer.svelte';
+	import VideoPopup from '$lib/components/ui/VideoPopup.svelte';
+	import Landing from '$lib/components/landing/Landing.svelte';
+	import SvelteHead from '$lib/components/layout/SvelteHead.svelte';
 	/**
 	 * This is the template site! Create a copy of this folder (src/routes/example)
 	 * and rename it to whatever you want your URL to be.

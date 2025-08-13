@@ -1,7 +1,7 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import { gsap } from 'gsap';
 	import { ScrollTrigger } from 'gsap/ScrollTrigger';
+	import { onMount } from 'svelte';
 
 	export let eventName: string = '';
 	export let bgGradient: string = 'bg-gradient-to-b from-[#FCEFC5] to-[#FEC1CF]';
