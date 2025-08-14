@@ -35,6 +35,7 @@
 	const sponsors = [
 		{ image: '/sponsors/jukebox-logo.svg', name: 'Jukebox', url: 'https://www.jukeboxprint.com/' },
 		{ image: '/sponsors/st-georges-school.png', name: 'St. George\'s School', url: 'https://www.stgeorges.bc.ca' },
+		{ image: '/sponsors/hackclub-flag.svg', name: 'Hack Club', url: 'https://hackclub.com' },
 	];
 
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
