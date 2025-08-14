@@ -44,22 +44,18 @@
 	<div class="hero-ui-parallax flex flex-col items-center justify-center text-center relative z-5 -translate-y-2">
 		<LandingLogo {eventLocation} />
 
+		<div class="mt-4 text-md text-[#4579a5]">
+			<a href="https://www.jukeboxprint.com/custom-stickers" class="text-blue-600 hover:text-blue-800 underline">Custom stickers</a> provided by Jukebox!
+		</div>
+
 		<ParticipantSignUp />
-		
+
 		<div class="flex gap-4 mt-6">
-			<a
-				href="https://bcydc.ca"
-				target="_blank"
-				class="px-6 py-3 bg-[#166d45] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
-			>
+			<a href="https://bcydc.ca" target="_blank" class="px-6 py-3 bg-[#166d45] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2">
 				<img src="/bcydc.svg" alt="BCYDC" class="w-5 h-5" />
 				Join bcydc
 			</a>
-			<a
-				href="https://hackclub.com"
-				target="_blank"
-				class="px-6 py-3 bg-[#cc2f44] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
-			>
+			<a href="https://hackclub.com" target="_blank" class="px-6 py-3 bg-[#cc2f44] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2">
 				<img src="/hackclub.svg" alt="Hack Club" class="w-5 h-5" />
 				Join Hack Club
 			</a>

@@ -4,7 +4,7 @@
 	}
 </script>
 
-<div class="mt-8 flex flex-col items-center gap-3 z-5 max-md:scale-90">
+<div class="mt-6 flex flex-col items-center gap-3 z-5 max-md:scale-90">
 	<div class="relative rounded-full overflow-hidden" style="padding: 2px 2px 5px 2px;">
 		<button
 			on:click={handleClick}

@@ -6,9 +6,7 @@
 <div class="inline-block relative">
 	<div class="h-12"></div>
 	<!-- space for the ship -->
-	<h2
-		class="text-xl font-serif text-[#4579a5] absolute left-1/2 translate-y-8 max-sm:mb-0 max-md:-mb-8 md:left-[calc(50%+8rem)] -translate-x-1/2 bottom-8 italic w-max md:text-lg max-sm:text-lg"
-	>
+	<h2 class="text-xl font-serif text-[#4579a5] absolute left-1/2 translate-y-8 max-sm:mb-0 max-md:-mb-8 md:left-[calc(50%+8rem)] -translate-x-1/2 bottom-8 italic w-max md:text-lg max-sm:text-lg">
 		September 27th & 28th, 2025
 	</h2>
 	<img src="/daydream-media/daydream.png" alt="Daydream" class="h-40 mb-6 w-auto object-contain max-w-full px-4" />
@@ -17,10 +15,13 @@
 	</a>
 </div>
 <div class="relative inline-block px-4">
-	<h3 class="text-3xl italic font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent w-max max-sm:text-2xl mx-auto">Game jam for high schoolers</h3>
+	<h3 class="text-3xl italic font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent w-max max-sm:text-2xl mx-auto">BC's biggest youth hackathon</h3>
 	<img src="/daydream-media/underline.svg" alt="" class="absolute left-1/2 -translate-x-1/2 -mt-1 h-auto scale-115" />
-	<h4 class="text-2xl opacity-90 mt-2 font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent max-sm:text-xl">
-		Organized by Teenagers in {@html eventLocation.replaceAll(' ', '&nbsp;')}
+	<h4 class="text-2xl opacity-90 mt-2 font-serif max-sm:text-xl group">
+		Organized by <a href="https://bcydc.ca" target="_blank" class="text-[#166d45] hover:text-[#0f5a3a] transition-colors inline-flex items-center gap-2 underline">
+			bcydc
+			<img src="/bcydc.svg" alt="BCYDC" class="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
+		</a>
 	</h4>
 </div>
 <!-- Landing Logo End -->
