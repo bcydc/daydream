@@ -7,7 +7,7 @@
 	<div class="h-12"></div>
 	<!-- space for the ship -->
 	<h2
-		class="text-xl font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent absolute left-1/2 max-sm:translate-y-4 max-sm:mb-0 max-md:-mb-8 md:left-[calc(50%+4rem)] -translate-x-1/2 bottom-8 italic w-max md:text-lg max-sm:text-lg"
+		class="text-xl font-serif text-[#4579a5] absolute left-1/2 translate-y-8 max-sm:mb-0 max-md:-mb-8 md:left-[calc(50%+8rem)] -translate-x-1/2 bottom-8 italic w-max md:text-lg max-sm:text-lg"
 	>
 		September 27th & 28th, 2025
 	</h2>
