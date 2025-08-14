@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let title: string = "What will you";
-	export let titleImage: string = "/dream-pixel.png";
+	export let titleImage: string = "/daydream-media/dream-pixel.png";
 	export let titleImageAlt: string = "Dream?";
 	export let description: string = "You can make any game you want as long as it can be deployed on itch.io! All games made must be deployed and available online for other participants to play and experience. We will only accept itch.io submission links.";
 	export let examples: Array<{ name: string; url: string; author: string }> = [
@@ -129,7 +129,7 @@
 		<div
 			class="bg-[#061E2D] text-[#D1E3EE] rounded-3xl py-18 md:py-16 px-10 md:px-18 relative overflow-visible"
 			style="
-		border-image: url('/macintosh.png') 128 91 464 91; 
+		border-image: url('/daydream-media/macintosh.png') 128 91 464 91; 
 		border-image-slice: 128 91 464 91; 
 		border-image-width: clamp(64px, 8vw, 128px) clamp(45px, 6vw, 91px) clamp(232px, 29vw, 464px) clamp(45px, 6vw, 91px); 
 		border-image-outset: clamp(64px, 8vw, 128px) clamp(45px, 6vw, 91px) clamp(232px, 29vw, 464px) clamp(45px, 6vw, 91px); 
@@ -138,11 +138,11 @@
 	"
 		>
 			<!-- frame around content -->
-			<div class="absolute inset-0 bg-[url(/macintosh-frame.png)] bg-size-[100%_100%]"></div>
+			<div class="absolute inset-0 bg-[url(/daydream-media/macintosh-frame.png)] bg-size-[100%_100%]"></div>
 
 			<!-- Hack Club logo on border -->
 			<img
-				src="/macintosh-hc-logo.png"
+				src="/daydream-media/macintosh-hc-logo.png"
 				alt="Hack Club logo"
 				class="absolute w-12 h-12 pointer-events-none z-20"
 				style="
@@ -159,7 +159,7 @@
 				left: calc(-1 * clamp(45px, 6vw, 91px));
 				right: calc(-1 * clamp(45px, 6vw, 91px));
 				bottom: calc(-1 * clamp(232px, 29vw, 464px));
-				background-image: url('/brushstroking.png');
+				background-image: url('/daydream-media/brushstroking.png');
 				background-size: 100vw 100vh;
 				background-repeat: repeat;
 				mix-blend-mode: overlay;
@@ -169,7 +169,7 @@
 
 			<!-- Keyboard image -->
 			<img
-				src="/macintosh-keyboard.png"
+				src="/daydream-media/macintosh-keyboard.png"
 				alt="Macintosh keyboard"
 				class="absolute pointer-events-none z-30 max-sm:!w-[250%]"
 				style="
@@ -256,7 +256,7 @@
 									<div class="flex items-center justify-around w-full h-full">
 										{#each diceNumbers as diceNumber}
 											<img
-												src="/dice/dice-{diceNumber}.png"
+												src="/daydream-media/dice/dice-{diceNumber}.png"
 												alt="Dice showing {diceNumber}"
 												class="h-24 w-24 object-contain flex-shrink-0 max-w-[30%] [image-rendering:pixelated]"
 											/>

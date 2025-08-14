@@ -33,13 +33,13 @@
 	// Sponsors Configuration
 	const sponsorsEnabled = true; // Set to false to hide the entire sponsors section
 	const sponsors = [
-		{ image: '/example/logo1.png', name: 'Sponsor 1', url: 'https://example1.com' },
-		{ image: '/example/logo2.png', name: 'Sponsor 2', url: 'https://example2.com' },
-		{ image: '/example/logo3.png', name: 'Sponsor 3', url: 'https://example3.com' },
-		{ image: '/example/logo4.png', name: 'Sponsor 4', url: 'https://example4.com' },
-		{ image: '/example/logo5.png', name: 'Sponsor 5', url: 'https://example5.com' },
-		{ image: '/example/logo6.png', name: 'Sponsor 6', url: 'https://example6.com' },
-		{ image: '/example/logo7.png', name: 'Sponsor 7', url: 'https://example7.com' }
+		{ image: '/daydream-media/example/logo1.png', name: 'Sponsor 1', url: 'https://example1.com' },
+		{ image: '/daydream-media/example/logo2.png', name: 'Sponsor 2', url: 'https://example2.com' },
+		{ image: '/daydream-media/example/logo3.png', name: 'Sponsor 3', url: 'https://example3.com' },
+		{ image: '/daydream-media/example/logo4.png', name: 'Sponsor 4', url: 'https://example4.com' },
+		{ image: '/daydream-media/example/logo5.png', name: 'Sponsor 5', url: 'https://example5.com' },
+		{ image: '/daydream-media/example/logo6.png', name: 'Sponsor 6', url: 'https://example6.com' },
+		{ image: '/daydream-media/example/logo7.png', name: 'Sponsor 7', url: 'https://example7.com' }
 	];
 
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
@@ -98,7 +98,7 @@
 <div class="w-full bg-gradient-to-b from-[#FDC5D1] to-[#FAE3C9] items-center justify-center px-0 md:px-8 relative pt-36">
 	<MapContainer {eventAddress} {eventName} {directionsURL} />
 
-	<div class="absolute top-0 left-0 w-full h-full bg-[url('brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
+	<div class="absolute top-0 left-0 w-full h-full bg-[url('/daydream-media/brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
 
 	<Macintosh />
 </div>

@@ -254,7 +254,7 @@
 				
 				// Create custom icon using map-flag.png
 				const flagIcon = L.icon({
-					iconUrl: '/map-flag.png',
+					iconUrl: '/daydream-media/map-flag.png',
 					iconSize: [32, 32],
 					iconAnchor: [16, 32],
 					popupAnchor: [0, -32]

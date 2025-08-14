@@ -6,7 +6,7 @@
 @font-face {
   font-family: 'Daydream New';
   font-display: swap;
-  src: url('/fonts/serif.woff') format('woff');
+  src: url('/daydream-media/fonts/serif.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @font-face {
   font-family: 'Daydream New';
   font-display: swap;
-  src: url('/fonts/serif-italic.woff') format('woff');
+  src: url('/daydream-media/fonts/serif-italic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
 }
@@ -54,7 +54,7 @@
   bottom: 0;
   left: -5%;
   right: -5%;
-  background: url(/underline.svg) no-repeat center;
+  background: url(/daydream-media/underline.svg) no-repeat center;
   background-size: cover;
   height: 8px;
   z-index: -1;
@@ -83,7 +83,7 @@
 .notebook {
   @apply bg-white bg-clip-padding p-8 mt-8;
   border-top: 64px solid transparent;
-  border-image: url('/guide/notebook-border.png') 72 round;
+  border-image: url('/daydream-media/daydream.png') 72 round;
 }
 @media (width < 750px) or (1024px < width < 1250px) {
   .scroll-table {

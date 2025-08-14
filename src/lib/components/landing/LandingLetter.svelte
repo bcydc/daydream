@@ -1,11 +1,11 @@
 <script lang="ts">
 	export let bgColor: string = '#FCEFC5';
-	export let brushstrokeImage: string = 'brushstroking.png';
-	export let letterTopImage: string = '/letter-top.png';
-	export let letterLoopImage: string = '/letter-loop.png';
-	export let cloudsLoopImage: string = '/clouds-loop.png';
-	export let underlineImage: string = '/underline.svg';
-	export let cloudCoverImage: string = '/cloud-cover-1.png';
+	export let brushstrokeImage: string = '/daydream-media/brushstroking.png';
+	export let letterTopImage: string = '/daydream-media/letter-top.png';
+	export let letterLoopImage: string = '/daydream-media/letter-loop.png';
+	export let cloudsLoopImage: string = '/daydream-media/clouds-loop.png';
+	export let underlineImage: string = '/daydream-media/underline.svg';
+	export let cloudCoverImage: string = '/daydream-media/cloud-cover-1.png';
 	export let maxWidth: string = 'max-w-4xl';
 	export let padding: string = 'pt-24 max-sm:pt-40 px-8 max-sm:px-2';
 	export let letterPadding: string = 'px-20 pt-20 pb-52 max-sm:px-18';

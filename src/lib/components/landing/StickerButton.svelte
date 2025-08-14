@@ -108,15 +108,15 @@
 	class="hidden md:block absolute bottom-16 left-16 z-50 w-max px-4 py-2 bg-pink border-b-2 border-b-pink-dark text-white rounded-full active:transform active:translate-y-0.5 transition-all duration-100 font-sans cursor-pointer overflow-visible hover:shadow-[0_2px_0_0_theme(colors.pink.dark)] hover:-translate-y-[2px] active:border-transparent active:shadow-none"
 >
 	Get free stickers
-	<img src="button-clouds.svg" alt="" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-auto object-contain pointer-events-none" />
-	<img src="rock-sticker.png" alt="" class="absolute bottom-2 right-3 translate-2/3 w-18 h-18 object-contain pointer-events-none" style="transform: rotate(-15deg);" />
+	<img src="/daydream-media/button-clouds.svg" alt="" class="absolute bottom-0 left-1/2 -translate-x-1/2 w-auto object-contain pointer-events-none" />
+	<img src="/daydream-media/rock-sticker.png" alt="" class="absolute bottom-2 right-3 translate-2/3 w-18 h-18 object-contain pointer-events-none" style="transform: rotate(-15deg);" />
 </a>
 
 <!-- Particle container -->
 <div bind:this={particleContainer} class="absolute inset-0 pointer-events-none z-40 opacity-70">
 	{#each particles as particle (particle.id)}
 		<img
-			src="particle.png"
+			src="/daydream-media/particle.png"
 			alt=""
 			class="absolute w-3 h-3 pointer-events-none"
 			style="left: {particle.x}px; top: {particle.y}px; opacity: {particle.opacity}; transform: rotate({particle.rotation}deg) scale({particle.scale});"
