@@ -6,11 +6,11 @@
 	export let cloudsImage: string = '/daydream-media/faq-clouds.png';
 	export let titleImage: string = '/daydream-media/faq.png';
 	export let titleAlt: string = 'FAQ';
-	export let maxWidth: string = 'max-w-6xl';
-	export let gridCols: string = 'grid-cols-2';
-	export let mobileGridCols: string = 'max-[900px]:grid-cols-1';
-	export let gap: string = 'gap-8';
-	export let mobileGap: string = 'max-md:gap-16';
+	export let maxWidth: string = 'max-w-4xl';
+	export let gridCols: string = 'grid-cols-1';
+	export let mobileGridCols: string = '';
+	export let gap: string = 'gap-4';
+	export let mobileGap: string = '';
 	export let paddingX: string = 'px-8';
 	export let zIndex: string = 'z-10';
 
@@ -18,59 +18,38 @@
 	const defaultFaqData = [
 		{
 			question: "Who can participate in Daydream?",
-			answer: "All high-school & upper-middle-school aged students are welcome to come!",
-			windowImage: "/daydream-media/window-3.png",
-			rotate: -2
-		},
-		{
-			question: "Can I organize a Daydream in my city?",
-			answer: "Definitely! Contact us via <a href='mailto:team@bcydc.ca' class='text-blue-600 hover:text-blue-800 underline'>team@bcydc.ca</a> or join #daydream-vancouver on slack.",
-			windowImage: "/daydream-media/window-4.png",
-			rotate: 1
+			answer: "All high-school aged students are welcome to come!"
 		},
 		{
 			question: "All this, for free?",
-			answer: "Yep! Food, swag and good vibes are all included. Plus, if you're joining us from afar, we'll cover the cost of gas or a bus / train ticket.",
-			windowImage: "/daydream-media/window-2.png",
-			rotate: 2
+			answer: "Yep! Food, swag and good vibes are all included. All costs are covered by our amazing sponsors! We have transparent finances on <a href='https://hcb.hackclub.com/daydream-vancouver' class='text-blue-600 hover:text-blue-800 underline'>HCB</a>."
 		},
 		{
 			question: "What do I need?",
-			answer: "Your laptop, chargers, toiletries, sleeping bags, and an open mind!",
-			windowImage: "/daydream-media/window-1.png",
-			rotate: -1
+			answer: "Your laptop, chargers, and an open mind!"
 		},
 		{
-			question: "What has Hack Club done before?",
-			answer: "Hack Club has run a hackathon in at GitHub HQ, a Game Jam in 50 cities, a hackathon on a train from Vermont to Los Angeles, and more!",
-			windowImage: "/daydream-media/window-4.png",
-			rotate: 1
+			question: "What have we done before?",
+			answer: "BCYDC has already run two hackathons in Vancouver: <a href='https://bcydc.ca/program/yvrhacks' class='text-blue-600 hover:text-blue-800 underline'>yvrHacks</a> and <a href='https://bcydc.ca/program/scrapyard' class='text-blue-600 hover:text-blue-800 underline'>Scrapyard Vancouver</a>! " +
+				"<br> Hack Club has run a hackathon at GitHub HQ, a hackathon on a train across the US, and more!"
 		},
 		{
 			question: "I'm not good at coding. Can I still participate?",
-			answer: "This game jam is for all skill levels! We'll have workshops and other events so join us and let's learn together.",
-			windowImage: "/daydream-media/window-3.png",
-			rotate: 1
+			answer: "Daydream Vancouver is for all skill levels! We'll have workshops and other events so join us and let's learn together."
 		},
 		{
 			question: "What if my parents are concerned?",
-			answer: "We're here to help! You can see our parent guide here, or they can reach out to us at <a href='mailto:team@bcydc.ca' class='text-blue-600 hover:text-blue-800 underline'>team@bcydc.ca</a> for questions.",
-			windowImage: "/daydream-media/window-2.png",
-			rotate: -2
+			answer: "We're here to help!  Our parent guide is coming soon, and they can reach out to us at <a href='mailto:team@bcydc.ca' class='text-blue-600 hover:text-blue-800 underline'>team@bcydc.ca</a> with any questions."
 		},
 		{
 			question: "What can I make at Daydream?",
-			answer: "ANY type of game based on the theme! Platformer, visual novel, clicker game, etc. Be as creative as possible!",
-			windowImage: "/daydream-media/window-1.png",
-			rotate: -1
+			answer: "ANY type of game based on the theme! Platformer, visual novel, clicker game, etc. Be as creative as possible!"
 		}
 	];
 
 	export let faqData: Array<{
 		question: string;
 		answer: string;
-		windowImage: string;
-		rotate: number;
 	}> = defaultFaqData;
 </script>
 
@@ -80,14 +59,12 @@
 	<img src={cloudsImage} alt="" class="w-full" />
 	<img src={titleImage} alt={titleAlt} class="mb-12 h-24 scale-175 max-md:scale-120" />
 
-	<!-- FAQ Grid -->
-	<div class="grid {gridCols} {gap} {maxWidth} {paddingX} {zIndex} {mobileGridCols} {mobileGap}">
+	<!-- FAQ List -->
+	<div class="w-full {maxWidth} {paddingX} {zIndex} space-y-4">
 		{#each faqData as faq}
 			<FaqItem
 				question={faq.question}
 				answer={faq.answer}
-				windowImage={faq.windowImage}
-				rotate={faq.rotate}
 			/>
 		{/each}
 	</div>

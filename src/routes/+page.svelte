@@ -41,9 +41,9 @@
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
 	const scheduleData: { title: string; items: { event: string; time: string }[] }[] = [
 		{
-			title: 'Saturday, September 27th',
+			title: 'September 27th - September 28th',
 			items: [
-				{ event: 'TBD!', time: 'TBD!' }
+				// { event: 'Our Schedule is coming soon!', time: '' }
 				// { event: 'Doors open', time: '11:00 AM' },
 				// { event: 'Opening ceremony', time: '12:00 PM' },
 				// { event: 'Lunch', time: '12:30 PM' },
@@ -56,15 +56,15 @@
 				// { event: 'Midnight surprise', time: '12:00 AM' }
 			]
 		},
-		{
-			title: 'Sunday, September 28th',
-			items: [
-				{ event: 'TBD!', time: 'TBD!' }
-				// { event: 'Breakfast', time: '8:00 AM' },
-				// { event: 'Demos!', time: '10:30 AM' },
-				// { event: 'Closing ceremony', time: '12:00 PM' }
-			]
-		}
+		// {
+		// 	title: 'Sunday, September 28th',
+		// 	items: [
+		// 		{ event: 'TBD!', time: 'TBD!' }
+		// 		// { event: 'Breakfast', time: '8:00 AM' },
+		// 		// { event: 'Demos!', time: '10:30 AM' },
+		// 		// { event: 'Closing ceremony', time: '12:00 PM' }
+		// 	]
+		// }
 	];
 
 	/** @type {import('./$types').PageData} */
