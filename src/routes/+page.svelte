@@ -96,7 +96,7 @@
 
 	<div class="absolute top-0 left-0 w-full h-full bg-[url('/daydream-media/brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
 
-	<Macintosh />
+	<!-- <Macintosh /> -->
 </div>
 
 <FaqList />

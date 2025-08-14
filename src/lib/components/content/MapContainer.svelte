@@ -356,7 +356,7 @@
 		/>
 	</div>
 
-	{#if eventAddress && showAddress}
+	<!-- {#if eventAddress && showAddress}
 		<p class="text-center font-sans text-2xl pt-12 max-sm:text-xl text-[#60574b] z-10000">
 			{#if directionsURL}
 				Daydream {eventName} is taking place at
@@ -365,5 +365,9 @@
 				Daydream {eventName} is taking place at <span class="underline">{eventAddress}</span>!
 			{/if}
 		</p>
-	{/if}
+	{/if} -->
+
+	<p class="text-center font-sans text-2xl pt-12 max-sm:text-xl text-[#60574b] z-10000">
+		Daydream {eventName} is taking place <a class="underline text-pink" href="https://www.google.com/maps/place/Metro+Vancouver,+BC" target="_blank" rel="noopener noreferrer"><i>somewhere</i></a> in Vancouver!
+	</p>
 </div>
