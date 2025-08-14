@@ -7,10 +7,6 @@
 	export let titleImage: string = '/daydream-media/faq.png';
 	export let titleAlt: string = 'FAQ';
 	export let maxWidth: string = 'max-w-4xl';
-	export let gridCols: string = 'grid-cols-1';
-	export let mobileGridCols: string = '';
-	export let gap: string = 'gap-4';
-	export let mobileGap: string = '';
 	export let paddingX: string = 'px-8';
 	export let zIndex: string = 'z-10';
 
