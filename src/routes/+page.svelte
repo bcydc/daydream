@@ -33,13 +33,8 @@
 	// Sponsors Configuration
 	const sponsorsEnabled = true; // Set to false to hide the entire sponsors section
 	const sponsors = [
-		{ image: '/example/logo1.png', name: 'Sponsor 1', url: 'https://example1.com' },
-		{ image: '/example/logo2.png', name: 'Sponsor 2', url: 'https://example2.com' },
-		{ image: '/example/logo3.png', name: 'Sponsor 3', url: 'https://example3.com' },
-		{ image: '/example/logo4.png', name: 'Sponsor 4', url: 'https://example4.com' },
-		{ image: '/example/logo5.png', name: 'Sponsor 5', url: 'https://example5.com' },
-		{ image: '/example/logo6.png', name: 'Sponsor 6', url: 'https://example6.com' },
-		{ image: '/example/logo7.png', name: 'Sponsor 7', url: 'https://example7.com' }
+		{ image: '/sponsors/jukebox-logo.svg', name: 'Jukebox', url: 'https://www.jukeboxprint.com/' },
+		{ image: '/sponsors/st-georges-school.png', name: 'St. George\'s School', url: 'https://www.stgeorges.bc.ca' },
 	];
 
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
