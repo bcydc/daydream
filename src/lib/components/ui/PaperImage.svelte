@@ -11,7 +11,7 @@
   .paper-wrapper {
     background: white;
     background-clip: padding-box;
-    border-image: url('/guide/paper-border.png') 35 stretch;
+    border-image: url('/daydream-media/guide/paper-border.png') 35 stretch;
     border-width: 35px;
     border-style: solid;
     display: inline-block;

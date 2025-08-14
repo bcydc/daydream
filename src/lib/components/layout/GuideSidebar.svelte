@@ -26,7 +26,7 @@
 <!-- Mobile toggle button -->
 <button 
 	on:click={toggleSidebar}
-	class="lg:hidden fixed top-6 right-6 z-50 p-3 bg-[url(/guide/sidebar-button.png)] bg-contain"
+	class="lg:hidden fixed top-6 right-6 z-50 p-3 bg-[url(/daydream-media/paper-sidebar.png)] bg-contain"
 	aria-label="Toggle navigation"
 >
 	<svg class="w-6 h-6 text-[#8b4513]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -44,7 +44,7 @@
 ></div>
 
 <!-- Sidebar -->
-<nav class="fixed left-0 top-0 lg:w-90 w-[120vw] bg-[url('/paper-sidebar.png')] bg-contain bg-repeat-y h-screen overflow-y-auto transition-transform duration-300 z-[60] {
+<nav class="fixed left-0 top-0 lg:w-90 w-[120vw] bg-[url('/daydream-media/paper-sidebar.png')] bg-contain bg-repeat-y h-screen overflow-y-auto transition-transform duration-300 z-[60] {
 	isOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'
 }">
 	<!-- Content wrapper to constrain to screen width -->

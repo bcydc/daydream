@@ -15,13 +15,13 @@
 			>
 				<!-- Header Section -->
 				<div
-					class="w-full bg-[url('/billboard-bg-texture.png')] bg-contain bg-repeat py-6 relative"
+					class="w-full bg-[url('/daydream-media/billboard-bg-texture.png')] bg-contain bg-repeat py-6 relative"
 					style="border-bottom: 8px solid #B4B4C5;"
 				>
 					<h2 class="text-4xl font-serif text-[#F0F0FF] text-center">Sponsors</h2>
 					<!-- Brush texture overlay for header -->
 					<div
-						class="absolute top-0 left-0 w-full h-full bg-[url('brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"
+						class="absolute top-0 left-0 w-full h-full bg-[url('/daydream-media/brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"
 					></div>
 				</div>
 
@@ -29,7 +29,7 @@
 				<div class="relative bg-gradient-to-b from-[#CCF4FD] to-[#AECDF6] px-8 pt-8 pb-16">
 					<!-- Brush texture overlay for content -->
 					<div
-						class="absolute top-0 left-0 w-full h-full bg-[url('brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"
+						class="absolute top-0 left-0 w-full h-full bg-[url('/daydream-media/brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"
 					></div>
 
 					<!-- Sponsors Grid -->
@@ -131,35 +131,35 @@
 
 				<!-- Billboard Bars (bottom) -->
 				<div
-					class="absolute bottom-0 -left-[5px] w-[calc(100%+10px)] h-6 bg-[url('/billboard-bars.png')] bg-repeat-x bg-contain bg-center pointer-events-none z-10 border-[#9898a7] border-x-[6px]"
+					class="absolute bottom-0 -left-[5px] w-[calc(100%+10px)] h-6 bg-[url('/daydream-media/billboard-bars.png')] bg-repeat-x bg-contain bg-center pointer-events-none z-10 border-[#9898a7] border-x-[6px]"
 				></div>
 			</div>
 
 			<!-- Connecting Pillars to First Billboard -->
 			<div
-				class="absolute top-0 left-[15%] w-[10vw] max-w-12 h-32 bg-[url('/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain -translate-y-32"
+				class="absolute top-0 left-[15%] w-[10vw] max-w-12 h-32 bg-[url('/daydream-media/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain -translate-y-32"
 				style="box-shadow: inset 0 8px 12px -6px rgba(0, 0, 0, 0.1);"
 			></div>
 			<div
-				class="absolute top-0 right-[15%] w-[10vw] max-w-12 h-32 bg-[url('/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain -translate-y-32"
+				class="absolute top-0 right-[15%] w-[10vw] max-w-12 h-32 bg-[url('/daydream-media/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain -translate-y-32"
 				style="box-shadow: inset 0 8px 12px -6px rgba(0, 0, 0, 0.1);"
 			></div>
 
 			<!-- Billboard Pillars (extending down from bottom) -->
 			<div
-				class="absolute bottom-0 left-[15%] w-[10vw] max-w-12 h-24 bg-[url('/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain translate-y-24"
+				class="absolute bottom-0 left-[15%] w-[10vw] max-w-12 h-24 bg-[url('/daydream-media/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain translate-y-24"
 				style="box-shadow: inset 0 8px 12px -6px rgba(0, 0, 0, 0.1);"
 			>
 				<div
-					class="absolute bottom-0 left-0 w-full h-auto bg-[url('/clouds-loop.png')] bg-no-repeat bg-contain bg-bottom pointer-events-none aspect-[2/1]"
+					class="absolute bottom-0 left-0 w-full h-auto bg-[url('/daydream-media/clouds-loop.png')] bg-no-repeat bg-contain bg-bottom pointer-events-none aspect-[2/1]"
 				></div>
 			</div>
 			<div
-				class="absolute bottom-0 right-[15%] w-[10vw] max-w-12 h-24 bg-[url('/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain translate-y-24"
+				class="absolute bottom-0 right-[15%] w-[10vw] max-w-12 h-24 bg-[url('/daydream-media/billboard-pillar.png')] bg-repeat-y pointer-events-none bg-contain translate-y-24"
 				style="box-shadow: inset 0 8px 12px -6px rgba(0, 0, 0, 0.1);"
 			>
 				<div
-					class="absolute bottom-0 left-0 w-full h-auto bg-[url('/clouds-loop.png')] bg-no-repeat bg-contain bg-bottom pointer-events-none aspect-[2/1]"
+					class="absolute bottom-0 left-0 w-full h-auto bg-[url('/daydream-media/clouds-loop.png')] bg-no-repeat bg-contain bg-bottom pointer-events-none aspect-[2/1]"
 				></div>
 			</div>
 		</div>

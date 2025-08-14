@@ -6,12 +6,12 @@
 	export let eventName: string = '';
 	export let bgGradient: string = 'bg-gradient-to-b from-[#FCEFC5] to-[#FEC1CF]';
 	export let padding: string = 'px-36 max-md:px-8 pb-50 max-sm:pb-24';
-	export let cloudsLeft2Image: string = '/clouds-left-2.png';
-	export let cloudsLeft3Image: string = '/clouds-left-3.png';
-	export let cloudsRight2Image: string = '/clouds-right-2.png';
-	export let cloudsPinkLeftImage: string = '/clouds-pink-left.png';
-	export let cloudsPinkRightImage: string = '/clouds-pink-right.png';
-	export let brushstrokeImage: string = 'brushstroking.png';
+	export let cloudsLeft2Image: string = '/daydream-media/clouds-left-2.png';
+	export let cloudsLeft3Image: string = '/daydream-media/clouds-left-3.png';
+	export let cloudsRight2Image: string = '/daydream-media/clouds-right-2.png';
+	export let cloudsPinkLeftImage: string = '/daydream-media/clouds-pink-left.png';
+	export let cloudsPinkRightImage: string = '/daydream-media/clouds-pink-right.png';
+	export let brushstrokeImage: string = '/daydream-media/brushstroking.png';
 	export let signupUrl: string = 'https://example.com';
 
 	function createSmoothPath(points: Array<{ x: number; y: number }>) {
@@ -347,14 +347,14 @@
 <div class="w-full bg-[#FCEFC5] flex justify-center py-16 relative overflow-hidden max-h-[400px]">
 	<!-- Cloud backdrop for gamejam text -->
 	<div class="absolute inset-0 w-full h-full pointer-events-none z-1">
-		<img src="/cloud-cover-1.png" alt="" class="w-full h-full object-cover" />
+		<img src="/daydream-media/cloud-cover-1.png" alt="" class="w-full h-full object-cover" />
 		<div class="absolute top-1/2 left-1/2 w-1 h-1 -translate-x-1/2 -translate-y-1/2" data-point="0"></div>
 		<div class="absolute top-1/2 left-1/4 w-1 h-1 -translate-x-1/2 -translate-y-1/2" data-point="0.5"></div>
 	</div>
 
 	<div class="relative w-10/12 h-auto object-contain cursor-text flex flex-row max-lg:flex-wrap md:translate-y-0 max-lg:translate-y-1/5 items-center justify-center align-middle max-w-5xl z-50">
-		<img src="gamejam-1-alt.png" alt="Here's How You Win a" class="flex-shrink min-w-0 object-contain" />
-		<img src="gamejam-2.png" alt="Game Jam" class="flex-shrink min-w-0 object-contain" />
+		<img src="/daydream-media/gamejam-1-alt.png" alt="Here's How You Win a" class="flex-shrink min-w-0 object-contain" />
+		<img src="/daydream-media/gamejam-2.png" alt="Game Jam" class="flex-shrink min-w-0 object-contain" />
 	</div>
 </div>
 
@@ -368,67 +368,67 @@
 		<path id="dotted-path" stroke="rgba(255,255,255,0.5)" stroke-width="3" fill="none" stroke-dasharray="8,8" opacity="0.7"></path>
 	</svg>
 
-	<img src="paper-airplane.png" alt="Paper airplane" class="h-16 absolute" id="paper-airplane" />
+	<img src="/daydream-media/paper-airplane.png" alt="Paper airplane" class="h-16 absolute" id="paper-airplane" />
 
 	<div class="flex flex-col items-center w-max basis-1/2 max-md:basis-full max-md:w-full z-10">
 		<div class="relative translate-y-8 max-md:translate-y-4 z-30">
-			<img src="/letter-1-front.png" alt="" class="object-contain absolute -bottom-16 -left-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.7s] z-20" />
-			<img src="/letter-1-back.png" alt="" class="object-contain absolute -bottom-16 -left-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.7s] z-10" />
+			<img src="/daydream-media/letter-1-front.png" alt="" class="object-contain absolute -bottom-16 -left-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.7s] z-20" />
+			<img src="/daydream-media/letter-1-back.png" alt="" class="object-contain absolute -bottom-16 -left-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.7s] z-10" />
 			<div class="relative w-72 h-40 max-md:w-80 animate-hover ![--hover:-0.15rem] ![animation-delay:1.7s] z-20" data-point="1">
-				<img src="paper1.png" alt="" class="w-full h-full object-contain" />
+				<img src="/daydream-media/paper1.png" alt="" class="w-full h-full object-contain" />
 				<div class="absolute inset-0 justify-center text-center p-6 text-xl font-serif max-md:text-lg text-[#8B4513] inline-block content-center">
 					<span class="font-sans text-[#E472AB] font-bold text-[1.3rem] mr-1">#1:</span> <a href={signupUrl} class="underline">Sign up</a> for Daydream {eventName}
 				</div>
 			</div>
 		</div>
-		<img src="/island-1.png" alt="" class="w-72 h-72 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:0.8s] z-0" />
+		<img src="/daydream-media/island-1.png" alt="" class="w-72 h-72 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:0.8s] z-0" />
 	</div>
 
 	<div class="flex flex-col items-center w-max basis-1/2 max-md:basis-full max-md:w-full translate-y-24 max-md:translate-y-8 z-10">
 		<div class="relative translate-y-24 max-md:translate-y-4 z-30">
-			<img src="/letter-2-front.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.1s] z-20" />
-			<img src="/letter-2-back.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.1s] z-10" />
+			<img src="/daydream-media/letter-2-front.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.1s] z-20" />
+			<img src="/daydream-media/letter-2-back.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.1s] z-10" />
 			<div class="relative w-72 h-40 max-md:w-80 animate-hover ![--hover:-0.15rem] ![animation-delay:0.3s] z-20" data-point="2">
-				<img src="paper2.png" alt="" class="w-full h-full object-contain" />
+				<img src="/daydream-media/paper2.png" alt="" class="w-full h-full object-contain" />
 				<div class="absolute inset-0 justify-center text-center p-6 text-xl font-serif max-md:text-lg text-[#8B4513] inline-block content-center">
 					<span class="font-sans text-[#639DEB] font-bold text-[1.3rem] mr-1">#2:</span> Attend a workshop and learn about game development
 				</div>
 			</div>
 		</div>
-		<img src="/island-3.png" alt="" class="w-86 h-86 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:1.2s] z-0" />
+		<img src="/daydream-media/island-3.png" alt="" class="w-86 h-86 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:1.2s] z-0" />
 	</div>
 	<div class="flex flex-col items-center w-max basis-1/2 max-md:basis-full max-md:w-full -translate-x-12 max-md:translate-x-0 max-md:translate-y-8 z-10">
 		<div class="relative translate-y-8 max-md:translate-y-4 z-30">
-			<img src="/letter-3-front.png" alt="" class="object-contain absolute -bottom-18 left-24 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.9s] z-20" />
-			<img src="/letter-3-back.png" alt="" class="object-contain absolute -bottom-18 left-24 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.9s] z-10" />
+			<img src="/daydream-media/letter-3-front.png" alt="" class="object-contain absolute -bottom-18 left-24 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.9s] z-20" />
+			<img src="/daydream-media/letter-3-back.png" alt="" class="object-contain absolute -bottom-18 left-24 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:0.9s] z-10" />
 			<div class="relative w-72 h-40 max-md:w-80 animate-hover ![--hover:-0.15rem] ![animation-delay:1.4s] z-20" data-point="3">
-				<img src="paper3.png" alt="" class="w-full h-full object-contain" />
+				<img src="/daydream-media/paper3.png" alt="" class="w-full h-full object-contain" />
 				<div class="absolute inset-0 justify-center text-center p-6 text-xl font-serif max-md:text-lg text-[#8B4513] inline-block content-center">
 					<span class="font-sans text-[#AB68E2] font-bold text-[1.3rem] mr-1">#3:</span> Find a team of other teenagers at the event
 				</div>
 			</div>
 		</div>
-		<img src="/island-2.png" alt="" class="w-72 h-72 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:2.1s] z-0" />
+		<img src="/daydream-media/island-2.png" alt="" class="w-72 h-72 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:2.1s] z-0" />
 	</div>
 	<div class="flex flex-col items-center w-max basis-1/2 max-md:basis-full max-md:w-full translate-y-30 max-md:translate-y-8 z-10">
 		<div class="relative translate-y-24 max-md:translate-y-4 z-30">
-			<img src="/letter-4-front.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.6s] z-20" />
-			<img src="/letter-4-back.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.6s] z-10" />
+			<img src="/daydream-media/letter-4-front.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.6s] z-20" />
+			<img src="/daydream-media/letter-4-back.png" alt="" class="object-contain absolute -bottom-16 -right-13 w-28 h-28 animate-hover ![--hover:-0.25rem] ![animation-delay:1.6s] z-10" />
 			<div class="relative w-72 h-40 max-md:w-80 animate-hover ![--hover:-0.15rem] ![animation-delay:2.3s] z-20" data-point="4">
-				<img src="paper4.png" alt="" class="w-full h-full object-contain" />
+				<img src="/daydream-media/paper4.png" alt="" class="w-full h-full object-contain" />
 				<div class="absolute inset-0 justify-center text-center p-6 text-xl font-serif max-md:text-lg text-[#8B4513] inline-block content-center">
 					<span class="font-sans text-[#F2993E] font-bold text-[1.3rem] mr-1">#4:</span> Start building your game - <em>no experience needed</em>
 				</div>
 			</div>
 		</div>
-		<img src="/island-4.png" alt="" class="w-88 h-88 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:0.5s] z-0" />
+		<img src="/daydream-media/island-4.png" alt="" class="w-88 h-88 object-contain max-md:w-64 max-md:h-64 animate-hover ![--hover:-0.25rem] ![animation-delay:0.5s] z-0" />
 	</div>
 
 	<!-- Final Card -->
 	<div class="flex flex-col items-center w-full basis-full translate-y-40 max-md:translate-y-12 z-20">
 		<div class="relative">
 			<div
-				class="bg-[url('/card-final.png')] bg-contain bg-no-repeat bg-center text-2xl font-serif pt-24 px-8 w-128 h-96 text-center max-md:w-80 max-md:h-80 max-md:text-xl max-md:pt-16 animate-hover ![--hover:-0.15rem] ![animation-delay:1.9s]"
+				class="bg-[url('/daydream-media/card-final.png')] bg-contain bg-no-repeat bg-center text-2xl font-serif pt-24 px-8 w-128 h-96 text-center max-md:w-80 max-md:h-80 max-md:text-xl max-md:pt-16 animate-hover ![--hover:-0.15rem] ![animation-delay:1.9s]"
 				data-point="5"
 			>
 				<span class="font-sans text-[#F2CC32] font-bold text-[1.5rem] mr-1">#5:</span> Share what you made with the world!

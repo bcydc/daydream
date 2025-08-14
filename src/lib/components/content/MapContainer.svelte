@@ -19,14 +19,14 @@
 			style="
 			mask-image: 
 				linear-gradient(white, white),
-				url('/clouds-loop-mask-2.png'),
-				url('/clouds-loop-mask-1.png'),
-				url('/clouds-loop-mask-3.png'),
-				url('/clouds-loop-mask-4.png'),
-				url('/cloud-corner-1.png'),
-				url('/cloud-corner-2.png'),
-				url('/cloud-corner-3.png'),
-				url('/cloud-corner-4.png');
+				url('/daydream-media/clouds-loop-mask-2.png'),
+				url('/daydream-media/clouds-loop-mask-1.png'),
+				url('/daydream-media/clouds-loop-mask-3.png'),
+				url('/daydream-media/clouds-loop-mask-4.png'),
+				url('/daydream-media/cloud-corner-1.png'),
+				url('/daydream-media/cloud-corner-2.png'),
+				url('/daydream-media/cloud-corner-3.png'),
+				url('/daydream-media/cloud-corner-4.png');
 			mask-position: 
 				center,
 				top left,
@@ -59,14 +59,14 @@
 				no-repeat;
 			-webkit-mask-image: 
 				linear-gradient(white, white),
-				url('/clouds-loop-mask-2.png'),
-				url('/clouds-loop-mask-1.png'),
-				url('/clouds-loop-mask-3.png'),
-				url('/clouds-loop-mask-4.png'),
-				url('/cloud-corner-1.png'),
-				url('/cloud-corner-2.png'),
-				url('/cloud-corner-3.png'),
-				url('/cloud-corner-4.png');
+				url('/daydream-media/clouds-loop-mask-2.png'),
+				url('/daydream-media/clouds-loop-mask-1.png'),
+				url('/daydream-media/clouds-loop-mask-3.png'),
+				url('/daydream-media/clouds-loop-mask-4.png'),
+				url('/daydream-media/cloud-corner-1.png'),
+				url('/daydream-media/cloud-corner-2.png'),
+				url('/daydream-media/cloud-corner-3.png'),
+				url('/daydream-media/cloud-corner-4.png');
 			-webkit-mask-position: 
 				center,
 				top left,
