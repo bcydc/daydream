@@ -79,7 +79,7 @@
 			/>
 			<input type="hidden" name="mailingLists" value="cmd3c94kz0hvz0iwt7ps28cyd" />
 			<button type="submit" class="bg-light h-full px-5 py-[0.45rem] rounded-full border-b-2 border-[#B3866A] cursor-pointer hover:border-b-4 hover:transform active:border-b-0 active:transform active:translate-y-0.5 focus:outline-none transition-all duration-100 flex-shrink-0">
-				<img src="submit.svg" alt="Go">
+				<img src="daydream-media/submit.svg" alt="Go">
 			</button>
 		</form>
 		
@@ -97,12 +97,12 @@
 	>
 		Get free stickers
 		<img
-			src="button-clouds.svg" 
+			src="daydream-media/button-clouds.svg" 
 			alt="" 
 			class="absolute bottom-0 left-1/2 -translate-x-1/2 w-auto object-contain pointer-events-none"
 		>
 		<img
-			src="rock-sticker.png"
+			src="daydream-media/rock-sticker.png"
 			alt=""
 			class="absolute bottom-2 right-3 translate-2/3 w-18 h-18 object-contain pointer-events-none"
 			style="transform: rotate(-15deg);"
