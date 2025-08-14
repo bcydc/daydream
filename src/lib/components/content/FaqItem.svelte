@@ -18,7 +18,7 @@
 			{question}
 		</h3>
 		<p class="text-sm">
-			{answer}
+			{@html answer}
 		</p>
 	</div>
 </div>

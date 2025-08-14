@@ -3,7 +3,11 @@
 	export let titleImage: string = "/dream-pixel.png";
 	export let titleImageAlt: string = "Dream?";
 	export let description: string = "You can make any game you want as long as it can be deployed on itch.io! All games made must be deployed and available online for other participants to play and experience. We will only accept itch.io submission links.";
-	export let examples: Array<{ name: string; url: string; author: string }> = [];
+	export let examples: Array<{ name: string; url: string; author: string }> = [
+		{ name: 'Remedy Renemy', url: 'https://bucketfish.itch.io/remedy-renemy', author: 'Tongyu and Kai Ling' },
+		{ name: 'Not an Idle', url: 'https://nanomars.itch.io/not-an-idle', author: 'Armand' },
+		{ name: 'SPEEDTICKERS', url: 'https://juanemars10201.itch.io/speedtickers', author: 'Agustin' }
+	];
 	export let footerText: string = "We'll have workshops and activities before Daydream to help you learn game development using Godot!";
 	export let showIdeaGenerator: boolean = true;
 	export let ideaGeneratorTitle: string = "Stuck?";

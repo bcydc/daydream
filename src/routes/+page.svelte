@@ -11,6 +11,9 @@
 	import VideoPopup from '$lib/components/ui/VideoPopup.svelte';
 	import Landing from '$lib/components/landing/Landing.svelte';
 	import SvelteHead from '$lib/components/layout/SvelteHead.svelte';
+	import Gtag from '$lib/components/ui/Gtag.svelte';
+
+	
 	/**
 	 * This is the template site! Create a copy of this folder (src/routes/example)
 	 * and rename it to whatever you want your URL to be.
@@ -79,6 +82,7 @@
 	$: pageKeywords = `game jam, hackathon, teen coding, Hack Club, game development, ${eventLocation}, ${eventName}`;
 </script>
 
+
 <SvelteHead {pageTitle} {pageDescription} {pageKeywords} {currentUrl} />
 
 <Landing {eventLocation} />
@@ -96,13 +100,7 @@
 
 	<div class="absolute top-0 left-0 w-full h-full bg-[url('brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
 
-	<Macintosh
-		examples={[
-			{ name: 'Remedy Renemy', url: 'https://bucketfish.itch.io/remedy-renemy', author: 'Tongyu and Kai Ling' },
-			{ name: 'Not an Idle', url: 'https://nanomars.itch.io/not-an-idle', author: 'Armand' },
-			{ name: 'SPEEDTICKERS', url: 'https://juanes10201.itch.io/speedtickers', author: 'Agustin' }
-		]}
-	/>
+	<Macintosh />
 </div>
 
 <FaqList />
@@ -110,5 +108,7 @@
 <Footer />
 
 <VideoPopup />
+
+<Gtag />
 
 <Styles />

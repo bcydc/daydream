@@ -24,7 +24,7 @@
 		},
 		{
 			question: "Can I organize a Daydream in my city?",
-			answer: "Definitely! Contact us via daydream@hackclub.com or join #daydream on slack.",
+			answer: "Definitely! Contact us via <a href='mailto:team@bcydc.ca' class='text-blue-600 hover:text-blue-800 underline'>team@bcydc.ca</a> or join #daydream-vancouver on slack.",
 			windowImage: "window-4.png",
 			rotate: 1
 		},
@@ -54,7 +54,7 @@
 		},
 		{
 			question: "What if my parents are concerned?",
-			answer: "We're here to help! You can see our parent guide here, or they can reach out to us at daydream@hackclub.com for questions.",
+			answer: "We're here to help! You can see our parent guide here, or they can reach out to us at <a href='mailto:team@bcydc.ca' class='text-blue-600 hover:text-blue-800 underline'>team@bcydc.ca</a> for questions.",
 			windowImage: "window-2.png",
 			rotate: -2
 		},

@@ -9,4 +9,4 @@ npm i
 npm run dev
 ```
 
-All commits pushed to `main` are deployed to Cloudflare Pages.
+All commits pushed to `main` are automatically deployed to Cloudflare Pages.
