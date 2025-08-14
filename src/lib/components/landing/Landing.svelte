@@ -45,6 +45,25 @@
 		<LandingLogo {eventLocation} />
 
 		<ParticipantSignUp />
+		
+		<div class="flex gap-4 mt-6">
+			<a
+				href="https://bcydc.ca"
+				target="_blank"
+				class="px-6 py-3 bg-[#125636] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
+			>
+				<img src="/bcydc.svg" alt="BCYDC" class="w-4 h-4" />
+				Join bcydc
+			</a>
+			<a
+				href="https://hackclub.com"
+				target="_blank"
+				class="px-6 py-3 bg-[#b92b3e] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
+			>
+				<img src="/hackclub.svg" alt="Hack Club" class="w-4 h-4" />
+				Join Hack Club
+			</a>
+		</div>
 	</div>
 
 	<!-- <img src="hot-air-balloon.png" alt="" class="absolute w-1/8 right-32 bottom-40 z-20"> -->
