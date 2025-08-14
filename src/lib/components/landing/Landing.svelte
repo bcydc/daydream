@@ -50,7 +50,7 @@
 			<a
 				href="https://bcydc.ca"
 				target="_blank"
-				class="px-6 py-3 bg-[#125636] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
+				class="px-6 py-3 bg-[#166d45] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
 			>
 				<img src="/bcydc.svg" alt="BCYDC" class="w-5 h-5" />
 				Join bcydc
@@ -58,7 +58,7 @@
 			<a
 				href="https://hackclub.com"
 				target="_blank"
-				class="px-6 py-3 bg-[#b92b3e] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
+				class="px-6 py-3 bg-[#cc2f44] rounded-lg font-bold text-white hover:scale-105 transition-all duration-300 cursor-pointer flex items-center gap-2"
 			>
 				<img src="/hackclub.svg" alt="Hack Club" class="w-5 h-5" />
 				Join Hack Club
