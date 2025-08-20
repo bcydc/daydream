@@ -29,7 +29,7 @@
 		>
 			<div class="absolute bottom-0 left-0 w-full h-24 z-10 pointer-events-none bg-[url('{cloudsLoopImage}')] bg-repeat-x bg-bottom bg-contain"></div>
 			<h2 class="{titleSize} font-serif italic mb-10 relative" style="color: {titleColor};">
-				Dear Hackers, Musicians, and Artist,
+				Dear Hackers, Musicians, and Artists,
 				<img src={underlineImage} alt="" class="absolute left-0 -bottom-3 w-64 h-auto opacity-70" />
 			</h2>
 
