@@ -36,7 +36,7 @@
 		{ image: '/sponsors/jukebox-logo.svg', name: 'Jukebox', url: 'https://www.jukeboxprint.com/' },
 		{ image: '/sponsors/st-georges-school.png', name: 'St. George\'s School', url: 'https://www.stgeorges.bc.ca' },
 		{ image: '/sponsors/moodfit.png', name: 'Moodfit', url: 'https://www.getmoodfit.com/' },
-		{ image: '/sponsors/code-crafters.png', name 'CodeCrafters', url: 'https://codecrafters.io/' },
+		{ image: '/sponsors/code-crafters.png', name: 'CodeCrafters', url: 'https://codecrafters.io/' },
 		{ image: '/sponsors/hackclub-flag.svg', name: 'Hack Club', url: 'https://hackclub.com' },
 	];
 
