@@ -60,7 +60,7 @@
 								{#if sponsors.length > 4}
 									<div class="flex justify-center">
 										<div
-											class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center max-w-2xl"
+											class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-center justify-items-center max-w-2xl"
 										>
 											{#each sponsors.slice(4) as sponsor, index}
 												<a
