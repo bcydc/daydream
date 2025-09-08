@@ -41,7 +41,7 @@
 <div class="flex flex-col items-center justify-center h-screen text-center bg-gradient-to-b from-[#CCF4FD] to-[#B8D9F8] bg-blend-overlay relative">
 	<LandingHeader />
 
-	<div class="hero-ui-parallax flex flex-col items-center justify-center text-center relative z-5 -translate-y-2">
+	<div class="hero-ui-parallax flex flex-col items-center justify-center text-center relative z-30 -translate-y-2">
 		<LandingLogo {eventLocation} />
 
 		<div class="mt-4 text-md text-[#4579a5]">
