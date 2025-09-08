@@ -368,6 +368,11 @@
 	{/if} -->
 
 	<p class="text-center font-sans text-2xl pt-12 max-sm:text-xl text-[#60574b] z-10000">
-		Daydream {eventName} is taking place <a class="underline text-pink" href="https://www.google.com/maps/place/Metro+Vancouver,+BC" target="_blank" rel="noopener noreferrer"><i>somewhere</i></a> in Vancouver!
+		Daydream {eventName} is taking place at the <a class="underline text-pink" href="https://maps.app.goo.gl/mq9Zh7HPyg29d8Ht6" target="_blank" rel="noopener noreferrer">BCIT Downtown Campus</a>!
 	</p>
+
+<p class="text-center font-sans text-2xl pt-12 max-sm:text-xl text-[#60574b] z-10000 flex items-center justify-center gap-2">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" class="inline-block w-10 h-10 text-pink-600 fill-current"><path d="M168 0C75.1 0 0 75.1 0 168c0 87.6 135.5 304.7 146.2 321.2c4.5 6.9 12.1 11 20.2 11s15.7-4.1 20.2-11C216.5 472.7 352 255.6 352 168C352 75.1 276.9 0 184 0zm0 240c-39.8 0-72-32.2-72-72s32.2-72 72-72s72 32.2 72 72s-32.2 72-72 72z"/></svg>
+  <a class="underline text-pink" href="https://maps.app.goo.gl/mq9Zh7HPyg29d8Ht6" target="_blank" rel="noopener noreferrer">{eventAddress}</a>
+</p>
 </div>

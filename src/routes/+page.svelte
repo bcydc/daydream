@@ -23,7 +23,7 @@
 	// Configuration - Put your information here!
 	const eventName = 'Vancouver';
 	const eventLocation = 'Vancouver';
-	const eventAddress = ''; // Leave this empty if you don't want an address
+	const eventAddress = '555 Seymour Street, Vancouver, BC'; // Leave this empty if you don't want an address
 	// const eventAddress = '1600 Pennsylvania Avenue, Washington, DC 20500'; // Leave this empty if you don't want an address
 	// These two are optional
 	const directionsURL = 'https://www.google.com/maps/search/1600+pennsylvania+avenue+washington+dc/';
