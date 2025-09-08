@@ -40,6 +40,10 @@
 		{
 			question: "What can I make at Daydream?",
 			answer: "ANY type of game based on the theme! Platformer, visual novel, clicker game, etc. Be as creative as possible!"
+		},
+		{
+			question: "Can I work in a team?",
+			answer: "Yes! You can work in teams of 1-3. You can find teammates beforehand or find teammates on the day of!"
 		}
 	];
 
