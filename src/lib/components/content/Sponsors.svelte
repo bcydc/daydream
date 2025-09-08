@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let sponsors: { image: string; name: string; url: string }[];
+	export let sponsors: { image: string; name: string; url: string; size?: string }[];
 	export let sponsorsEnabled: boolean = true;
 	export let contactLink: string = '';
 	export let eventName: string = '';
@@ -47,21 +47,21 @@
 											target="_blank"
 											rel="noopener noreferrer"
 										>
-											<img
-												src={sponsor.image}
-												alt={sponsor.name}
-												class="max-w-full max-h-full object-contain"
-											/>
+<img
+src={sponsor.image}
+alt={sponsor.name}
+class={`object-contain max-h-full ${sponsor.size ? sponsor.size : 'max-w-full'}`}
+/>
 										</a>
 									{/each}
 								</div>
 
 								<!-- Second row (remaining sponsors, centered) -->
 								{#if sponsors.length > 4}
-									<div class="flex justify-center">
-										<div
-											class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center max-w-2xl"
-										>
+<div class="flex justify-center">
+<div
+class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center max-w-2xl mx-auto"
+>
 											{#each sponsors.slice(4) as sponsor, index}
 												<a
 													href={sponsor.url}

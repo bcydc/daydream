@@ -13,7 +13,6 @@
 	import SvelteHead from '$lib/components/layout/SvelteHead.svelte';
 	import Gtag from '$lib/components/ui/Gtag.svelte';
 
-	
 	/**
 	 * This is the template site! Create a copy of this folder (src/routes/example)
 	 * and rename it to whatever you want your URL to be.
@@ -34,10 +33,11 @@
 	const sponsorsEnabled = true; // Set to false to hide the entire sponsors section
 	const sponsors = [
 		{ image: '/sponsors/jukebox-logo.svg', name: 'Jukebox', url: 'https://www.jukeboxprint.com/' },
-		{ image: '/sponsors/st-georges-school.png', name: 'St. George\'s School', url: 'https://www.stgeorges.bc.ca' },
-		{ image: '/sponsors/moodfit.png', name: 'Moodfit', url: 'https://www.getmoodfit.com/' },
-		{ image: '/sponsors/code-crafters.png', name: 'CodeCrafters', url: 'https://codecrafters.io/' },
+		{ image: '/sponsors/st-georges-school.png', name: "St. George's School", url: 'https://www.stgeorges.bc.ca' },
+		{ image: '/bcit.svg', name: 'BCIT', url: 'https://www.bcit.ca' },
 		{ image: '/sponsors/hackclub-flag.svg', name: 'Hack Club', url: 'https://hackclub.com' },
+		{ image: '/sponsors/moodfit.png', name: 'Moodfit', url: 'https://www.getmoodfit.com/' },
+		{ image: '/sponsors/code-crafters.png', name: 'CodeCrafters', url: 'https://codecrafters.io/' }
 	];
 
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
@@ -45,33 +45,25 @@
 		{
 			title: 'September 27th - September 28th',
 			items: [
-				// { event: 'Our Schedule is coming soon!', time: '' }
-				// { event: 'Doors open', time: '11:00 AM' },
-				// { event: 'Opening ceremony', time: '12:00 PM' },
-				// { event: 'Lunch', time: '12:30 PM' },
-				// { event: 'Start working on your project!', time: '1:00 PM' },
-				// { event: 'Workshop 1', time: '2:00 PM' },
-				// { event: 'Activity 1', time: '4:00 PM' },
-				// { event: 'Workshop 2', time: '4:00 PM' },
-				// { event: 'Dinner', time: '6:00 PM' },
-				// { event: 'Lightning talks', time: '8:00 PM' },
-				// { event: 'Midnight surprise', time: '12:00 AM' }
+				{ event: 'Doors open - Breakfast', time: '8:30 AM' },
+				{ event: 'Opening Ceremony', time: '9:15 AM' },
+				{ event: 'Begin working on projects', time: '9:45 AM' },
+				{ event: 'Workshop 1 - Intro to Godot', time: '9:45 AM' },
+				{ event: 'Lunch + Lightning Talks', time: '12:00 PM' },
+				{ event: 'Workshop 2 - Game Polishing', time: '1:00 PM' },
+				{ event: 'Ping Pong Tournament', time: '3:00 PM' },
+				{ event: 'Workshop 3 - Shipping - MANDATORY', time: '5:00 PM' },
+				{ event: 'Dinner', time: '6:00 PM' },
+				{ event: 'Project Demos', time: '7:00 PM' },
+				{ event: 'Closing Ceremony', time: '8:15 PM' },
+				{ event: 'Event End', time: '9:00 PM' }
 			]
-		},
-		// {
-		// 	title: 'Sunday, September 28th',
-		// 	items: [
-		// 		{ event: 'TBD!', time: 'TBD!' }
-		// 		// { event: 'Breakfast', time: '8:00 AM' },
-		// 		// { event: 'Demos!', time: '10:30 AM' },
-		// 		// { event: 'Closing ceremony', time: '12:00 PM' }
-		// 	]
-		// }
+		}
 	];
 
 	/** @type {import('./$types').PageData} */
 	// svelte-ignore export_let_unused
-		export let data: any;
+	export let data: any;
 
 	// Get current URL for dynamic metadata
 	$: currentUrl = `https://daydream.bcydc.ca`;
@@ -79,7 +71,6 @@
 	$: pageDescription = `Join Daydream ${eventName} in ${eventLocation}! A teen-led game jam where you'll build amazing games with other high schoolers. Food, workshops, and prizes included!`;
 	$: pageKeywords = `game jam, hackathon, teen coding, Hack Club, game development, ${eventLocation}, ${eventName}`;
 </script>
-
 
 <SvelteHead {pageTitle} {pageDescription} {pageKeywords} {currentUrl} />
 
