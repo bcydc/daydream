@@ -82,15 +82,15 @@
 
 <Sponsors {sponsors} {sponsorsEnabled} {contactLink} {eventName} />
 
-<Pathway {eventName} />
+<div class="w-full bg-gradient-to-b from-[#FCEFC5] to-[#FEC1CF] items-center justify-center px-0 md:px-8 relative pt-36">
+<MapContainer {eventAddress} {eventName} {directionsURL} />
 
-<div class="w-full bg-gradient-to-b from-[#FDC5D1] to-[#FAE3C9] items-center justify-center px-0 md:px-8 relative pt-36">
-	<MapContainer {eventAddress} {eventName} {directionsURL} />
+<div class="absolute top-0 left-0 w-full h-full bg-[url('/daydream-media/brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
 
-	<div class="absolute top-0 left-0 w-full h-full bg-[url('/daydream-media/brushstroking.png')] bg-size-[100vw_100vh] bg-repeat mix-blend-overlay opacity-60 pointer-events-none"></div>
-
-	<!-- <Macintosh /> -->
+<!-- <Macintosh /> -->
 </div>
+
+<Pathway {eventName} bgGradient="bg-gradient-to-b from-[#FDC5D1] to-[#FAE3C9]" />
 
 <FaqList />
 

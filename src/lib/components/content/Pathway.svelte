@@ -344,10 +344,10 @@
 </script>
 
 <!-- Gamejam Text Section -->
-<div class="w-full bg-[#FCEFC5] flex justify-center py-16 relative overflow-hidden max-h-[400px]">
+<div class="w-full bg-gradient-to-b from-[#FDC5D1] to-[#FAE3C9] flex justify-center py-16 relative overflow-hidden max-h-[400px]">
 	<!-- Cloud backdrop for gamejam text -->
 	<div class="absolute inset-0 w-full h-full pointer-events-none z-1">
-		<img src="/daydream-media/cloud-cover-1.png" alt="" class="w-full h-full object-cover" />
+		<img src="/daydream-media/clouds-pink-left.png" alt="" class="w-full h-full object-cover" />
 		<div class="absolute top-1/2 left-1/2 w-1 h-1 -translate-x-1/2 -translate-y-1/2" data-point="0"></div>
 		<div class="absolute top-1/2 left-1/4 w-1 h-1 -translate-x-1/2 -translate-y-1/2" data-point="0.5"></div>
 	</div>
