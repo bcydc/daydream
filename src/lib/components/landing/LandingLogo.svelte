@@ -7,7 +7,7 @@
 	<div class="h-12"></div>
 	<!-- space for the ship -->
 	<h2 class="text-xl font-serif text-[#4579a5] absolute left-1/2 translate-y-8 max-sm:mb-0 max-md:-mb-8 md:left-[calc(50%+8rem)] -translate-x-1/2 bottom-9 italic w-max md:text-lg max-sm:text-lg">
-		September 27th & 28th, 2025
+		September 27th, 2025
 	</h2>
 	<img src="/daydream-media/daydream.png" alt="Daydream" class="h-40 mb-8 w-auto object-contain max-w-full px-4" />
 	<a href="https://hackclub.com" class="absolute top-0 -right-6 max-sm:right-0 max-sm:scale-80 animate-hover ![animation-delay:0.9s] ![--hover:-0.2rem]">
