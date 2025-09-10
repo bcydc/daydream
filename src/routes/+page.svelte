@@ -43,7 +43,7 @@
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
 	const scheduleData: { title: string; items: { event: string; time: string }[] }[] = [
 		{
-			title: 'September 27th - September 28th',
+			title: 'September 27th',
 			items: [
 				{ event: 'Doors open - Breakfast', time: '8:30 AM' },
 				{ event: 'Opening Ceremony', time: '9:15 AM' },
