@@ -44,9 +44,9 @@
 							>
 								{day.title}
 							</h3>
-							<p class="text-center text-lg font-sans text-[#477783]">
+							<!-- p class="text-center text-lg font-sans text-[#477783]">
 								Our schedule is coming soon!
-							</p>
+							</p -->
 
 							<div class="max-w-xl mx-auto px-4">
 								{#each day.items as item, index}
