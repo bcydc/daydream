@@ -68,7 +68,7 @@
   </div>
   <!-- Desktop: show right, large. -->
   <div class="hidden md:flex flex-1 justify-center items-center">
-    <img src="/bcit.svg" alt="BCIT" class="w-72 lg:w-[32rem] z-50 pointer-events-none" />
+    <img src="/bcit.svg" alt="BCIT" class="w-84 h-84 lg:w-[32rem] z-50 pointer-events-none" />
   </div>
 </div>
 
