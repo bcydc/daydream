@@ -24,3 +24,4 @@ vite.config.ts.timestamp-*
 vite-inspect
 .vite-inspect
 
+.pnpm-lock*
