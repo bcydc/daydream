@@ -42,12 +42,34 @@
 <LandingHeader />
 
 <div class="w-full flex flex-col md:flex-row items-center justify-between h-auto md:h-[80vh] px-4 md:px-16">
-  <div class="hero-ui-parallax flex flex-col items-center justify-center text-center relative z-30 -translate-y-2 flex-1">
-    <LandingLogo {eventLocation} />
-
-    <div class="mt-4 text-md text-[#4579a5]">
-      <a href="https://www.jukeboxprint.com/custom-stickers" class="text-blue-600 hover:text-blue-800 underline">Custom stickers</a> provided by Jukebox!
-    </div>
+	<!-- Big landing header thingy -->
+	<div class="hero-ui-parallax flex flex-col items-center justify-center text-center relative z-30 -translate-y-2 flex-1">
+		<div class="inline-block relative">
+		<div class="h-12"></div>
+		<!-- space for the ship -->
+		<img src="/daydream-media/daydream.png" alt="Daydream" class="h-40 mb-8 w-auto object-contain max-w-full px-4" />
+		<a href="https://hackclub.com" class="absolute top-0 -right-6 max-sm:right-0 max-sm:scale-80 animate-hover ![animation-delay:0.9s] ![--hover:-0.2rem]">
+			<img src="/daydream-media/flag-plane.png" alt="Hack Club" class="h-28" />
+		</a>
+	</div>
+	<div class="relative inline-block px-4">
+		<h3 class="text-3xl italic font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent w-max max-sm:text-2xl mx-auto">
+			BC's biggest youth hackathon</h3>
+		<img src="/daydream-media/underline.svg" alt="" class="absolute left-1/2 -translate-x-1/2 -mt-1 h-auto scale-115" />
+		<h2 class="text-3xl mt-8 font-serif text-[#4579a5] absolute left-1/2 -translate-x-1/2 bottom-9 italic w-max md:text-2xl max-sm:text-xl text-center flex items-center justify-center gap-2">
+				September 27th, 2025 @ 
+			<a href="https://www.bcit.ca" target="_blank" class="flex items-center hover:opacity-80 transition-opacity">
+				<img src="/bcit.svg" alt="BCIT" class="h-6 rounded-md md:h-8 mr-2 inline" />
+				Downtown Campus
+			</a>
+		</h2>
+		<h4 class="text-xl opacity-90 mt-12 font-serif max-sm:text-xl group text-[#4579a5]">
+			Organized by <a href="https://bcydc.ca" target="_blank" class="text-[#166d45] hover:text-[#0f5a3a] transition-colors inline-flex items-center gap-2 underline">
+				bcydc
+				<img src="/bcydc.svg" alt="BCYDC" class="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
+			</a>
+		</h4>
+	</div>
 
     <ParticipantSignUp />
 
@@ -61,15 +83,15 @@
         Join Hack Club
       </a>
     </div>
-    <!-- Mobile: show BCIT logo below, small. -->
+    <!-- Mobile: show BCIT logo below, small. 
     <div class="flex md:hidden w-full justify-center items-center mt-6">
       <img src="/bcit.svg" alt="BCIT" class="w-40 pointer-events-none" />
-    </div>
+    </div>--> 
   </div>
-  <!-- Desktop: show right, large. -->
+  <!-- Desktop: show right, large.
   <div class="hidden md:flex flex-1 justify-center items-center">
-    <img src="/bcit.svg" alt="BCIT" class="w-84 h-84 lg:w-[32rem] z-50 pointer-events-none" />
-  </div>
+    <img src="/bcit.svg" alt="BCIT" class="w-72 lg:w-[32rem] z-50 pointer-events-none" />
+  </div>-->
 </div>
 
 	<!-- <img src="hot-air-balloon.png" alt="" class="absolute w-1/8 right-32 bottom-40 z-20"> -->
