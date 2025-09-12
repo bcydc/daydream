@@ -25,6 +25,10 @@
 			answer: "Your laptop, chargers, and an open mind!"
 		},
 		{
+			question: "Where is this happening?",
+			answer: "Daydream Vancouver is happening at the <a href='https://www.bcit.ca/' class='text-blue-600 hover:text-blue-800 underline'>BCIT Downtown Campus</a>, 555 Seymour St, Vancouver, BC."
+		},
+		{
 			question: "What have we done before?",
 			answer: "BCYDC has already run two hackathons in Vancouver: <a href='https://bcydc.ca/program/yvrhacks' class='text-blue-600 hover:text-blue-800 underline'>yvrHacks</a> and <a href='https://bcydc.ca/program/scrapyard' class='text-blue-600 hover:text-blue-800 underline'>Scrapyard Vancouver</a>! " +
 				"<br> Hack Club has run a hackathon at GitHub HQ, a hackathon on a train across the US, and more!"

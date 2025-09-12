@@ -55,9 +55,9 @@
 			<div class="relative inline-block px-4">
 				<h3 class="text-3xl italic font-serif bg-gradient-to-b from-[#487DAB] to-[#3F709A] bg-clip-text text-transparent w-max max-sm:text-2xl mx-auto">BC's biggest youth hackathon</h3>
 				<img src="/daydream-media/underline.svg" alt="" class="absolute left-1/2 -translate-x-1/2 -mt-1 h-auto scale-115" />
-<h2
-class="text-2xl mt-4 font-serif text-[#4579a5] italic w-full mx-auto text-center flex flex-col items-center gap-0 md:flex-row md:gap-2 md:items-center md:justify-center md:w-max md:mx-0 md:absolute md:left-1/2 md:-translate-x-1/2 md:bottom-9"
->
+				<h2
+					class="text-2xl mt-4 font-serif text-[#4579a5] italic w-full mx-auto text-center flex flex-col items-center gap-0 md:flex-row md:gap-2 md:items-center md:justify-center md:w-max md:mx-0 md:absolute md:left-1/2 md:-translate-x-1/2 md:bottom-9"
+				>
 					<span>September 27th, 2025</span>
 					<span class="flex items-center gap-2 justify-center md:ml-2">
 						@
@@ -73,6 +73,10 @@ class="text-2xl mt-4 font-serif text-[#4579a5] italic w-full mx-auto text-center
 						<img src="/bcydc.svg" alt="BCYDC" class="w-6 h-6 group-hover:rotate-12 transition-transform duration-300" />
 					</a>
 				</h4>
+			</div>
+
+			<div class="mt-4 text-md text-[#4579a5]">
+				<a href="https://www.jukeboxprint.com/custom-stickers" class="text-blue-600 hover:text-blue-800 underline">Custom stickers</a> provided by Jukebox!
 			</div>
 
 			<ParticipantSignUp />
