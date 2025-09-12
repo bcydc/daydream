@@ -75,6 +75,8 @@
 				</h4>
 			</div>
 
+			<!-- NEVER NEVER NEVER REMOVE THIS UNDER ANY CIRCUMSTANCES
+			     OR WE END UP ON THE HOOK FOR $700 TO JUKEBOX. -->
 			<div class="mt-4 text-md text-[#4579a5]">
 				<a href="https://www.jukeboxprint.com/custom-stickers" class="text-blue-600 hover:text-blue-800 underline">Custom stickers</a> provided by Jukebox!
 			</div>
