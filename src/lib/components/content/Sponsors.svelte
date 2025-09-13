@@ -43,7 +43,7 @@
 									{#each sponsors.slice(0, 4) as sponsor}
 										<a
 											href={sponsor.url}
-											class="bg-white/20 rounded-lg p-4 w-full h-20 flex items-center justify-center hover:bg-white/40 hover:scale-105 transition-all"
+											class="bg-white/20 rounded-lg p-4 w-full h-20 flex items-center justify-center hover:bg-white/40 hover:scale-105 transition-al"
 											target="_blank"
 											rel="noopener noreferrer"
 										>

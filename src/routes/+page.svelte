@@ -33,9 +33,10 @@
 	const sponsorsEnabled = true; // Set to false to hide the entire sponsors section
 	const sponsors = [
 		{ image: '/sponsors/jukebox-logo.svg', name: 'Jukebox', url: 'https://www.jukeboxprint.com/' },
-		{ image: '/sponsors/st-georges-school.png', name: "St. George's School", url: 'https://www.stgeorges.bc.ca' },
 		{ image: '/bcit.svg', name: 'BCIT', url: 'https://www.bcit.ca' },
 		{ image: '/sponsors/hackclub-flag.svg', name: 'Hack Club', url: 'https://hackclub.com' },
+		{ image: '/sponsors/steamoji-no-bg.svg', name: 'Steamoji', url: 'https://steamoji.com'},
+		{ image: '/sponsors/st-georges-school.png', name: "St. George's School", url: 'https://www.stgeorges.bc.ca' },
 		{ image: '/sponsors/moodfit.png', name: 'Moodfit', url: 'https://www.getmoodfit.com/' },
 		{ image: '/sponsors/code-crafters.png', name: 'CodeCrafters', url: 'https://codecrafters.io/' }
 	];
