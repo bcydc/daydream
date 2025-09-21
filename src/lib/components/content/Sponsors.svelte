@@ -36,54 +36,6 @@
 					<div class="relative z-10 min-h-40">
 						{#if sponsors.length > 0}
 							<!-- First row (up to 4 sponsors) -->
-							{#if sponsors.length > 4}
-								<div
-									class="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center mb-8"
-								>
-									{#each sponsors.slice(0, 4) as sponsor}
-										<a
-											href={sponsor.url}
-											class="bg-white/20 rounded-lg p-4 w-full h-20 flex items-center justify-center hover:bg-white/40 hover:scale-105 transition-al"
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-<img
-src={sponsor.image}
-alt={sponsor.name}
-class={`object-contain max-h-full ${sponsor.size ? sponsor.size : 'max-w-full'}`}
-/>
-										</a>
-									{/each}
-								</div>
-
-								<!-- Second row (remaining sponsors, centered) -->
-								{#if sponsors.length > 4}
-<div class="flex justify-center">
-<div
-class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center max-w-2xl mx-auto"
->
-											{#each sponsors.slice(4) as sponsor, index}
-												<a
-													href={sponsor.url}
-													class="bg-white/20 rounded-lg p-4 w-full h-20 flex items-center justify-center hover:bg-white/40 hover:scale-105 transition-all {sponsors.slice(
-														4
-													).length === 3 && index === 2
-														? 'md:col-span-1 col-span-2 max-w-xs mx-auto'
-														: ''}"
-													target="_blank"
-													rel="noopener noreferrer"
-												>
-													<img
-														src={sponsor.image}
-														alt={sponsor.name}
-														class="max-w-full max-h-full object-contain"
-													/>
-												</a>
-											{/each}
-										</div>
-									</div>
-								{/if}
-							{:else}
 								<!-- Single row for 4 or fewer sponsors -->
 								<div class="flex justify-center">
 									<div
@@ -113,7 +65,6 @@ class="grid grid-cols-2 md:grid-cols-3 gap-8 items-center justify-items-center m
 									</div>
 								</div>
 							{/if}
-						{/if}
 
 						{#if contactLink}
 							<!-- Call to action for sponsors -->
