@@ -3,10 +3,10 @@
 	export let pageDescription: string = 'Join us for Daydream, the world\'s biggest Game Jam happening simultaneously in 100 cities. Make games, learn new skills, and meet other teenagers!';
 	export let pageKeywords: string = 'game jam, hackathon, high school, teenagers, game development, hack club';
 	export let currentUrl: string = 'https://daydream.hackclub.com';
-	export let ogImage: string = 'https://daydream.hackclub.com/og.png';
+	export let ogImage: string = '/og-image.png';
 	export let ogImageWidth: string = '1200';
 	export let ogImageHeight: string = '630';
-	export let twitterImage: string = 'https://daydream.hackclub.com/og-image.png';
+	export let twitterImage: string = '/og-image.png';
 	export let twitterCreator: string = '@hackclub';
 	export let twitterSite: string = '@hackclub';
 	export let siteName: string = 'Daydream';
