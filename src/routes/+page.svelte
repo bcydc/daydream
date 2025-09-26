@@ -42,6 +42,7 @@
 		{ image: '/sponsors/ltt.png', name: 'Linus Tech Tips', url: 'https://linusmediagroup.com/' },
 		{ image: '/sponsors/moodfit.png', name: 'Moodfit', url: 'https://www.getmoodfit.com/' },
 		{ image: '/sponsors/code-crafters.png', name: 'CodeCrafters', url: 'https://codecrafters.io/' },
+	
 	];
 
 	// Schedule Configuration - You don't need to use this exact schedule, this is just an example!
